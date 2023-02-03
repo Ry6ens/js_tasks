@@ -1,0 +1,13 @@
+#drawContainer {
+    border: 1px solid red;
+}
+
+#btn {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+
+    cursor: pointer;
+}

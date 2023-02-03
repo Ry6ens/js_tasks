@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>22_dark_mode_toggle</title>
+    <link rel="stylesheet" href="./css/22_dark_mode_toggle.css">
+</head>
+
+<body>
+    <p><a href="index.html">Go back</a></p>
+
+    <form>
+        <div>
+            <button type="button" id="default" aria-pressed="false" onclick="toggle(this.id);">
+                Default button
+            </button>
+        </div>
+        <div class="toggles">
+            <button type="button" id="styled" aria-pressed="false" onclick="toggle(this.id);">
+                Styled button
+            </button>
+        </div>
+        <!-- <div class="toggles">
+            <button class="theme-selector" type="button" title="Toggle Dark Mode" aria-pressed="false" onclick="toggle(this.id);">
+                Styled button
+            </button>
+        </div> -->
+    </form>
+    
+    <script src="./js/22_dark_mode_toggle.js"></script>
+</body>
+
+</html>

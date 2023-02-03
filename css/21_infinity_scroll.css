@@ -1,0 +1,127 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(227, 242, 253, 1) 40%, rgba(227, 242, 253, 1) 100%);
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background: #e3f2fd;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px -6px rgba(0, 0, 0, 0.15);
+}
+
+.form-background {
+    display: flex;
+    width: 550px;
+    justify-content: center;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 5px 20px -6px rgba(0, 0, 0, 0.15);
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 105px;
+    padding: 0px 20px;
+}
+
+.photo-card {
+    display: block;
+    margin-bottom: 50px;
+
+    border: 1px solid #303030;
+    box-shadow: 0 0 10px 0 #cccccc;
+}
+
+.thumb {
+    display: flex;
+    overflow: hidden;
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 12px;
+}
+
+input[type="text"] {
+    height: 100%;
+    outline: none;
+    border: 2px solid #bfbfbf;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 10px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+        border-color: #4671ea;
+}
+
+button[type="submit"] {
+    width: 22%;
+    margin-left: 20px;
+    padding: 0;
+    color: #fff;
+    background: #4671ea;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+}
+
+button[type="submit"]:hover {
+        background: #1748cf;
+}
+
+.load-more {
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #2ecc71;
+    color: #ffffff;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 250ms linear;
+}
+
+.load-more.is-hidden {
+    display: none;
+}
+
+.load-more:hover,
+.load-more:focus {
+    background-color: #27ae60;
+}
