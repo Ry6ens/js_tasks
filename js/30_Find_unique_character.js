@@ -1,4 +1,4 @@
-const text = `aab The Tao gave birth to machine language. Machine language gave birth to the assembler.
+const text = `The Tao gave birth to machine language. Machine language gave birth to the assembler.
 The assembler gave birth to the compiler. Now there are ten thousand languages.
 Each language has its purpose, however humble. Each language
 expresses the Yin and Yang of software. Each language has its place within
